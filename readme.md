@@ -7,4 +7,5 @@ Implementar uno de los patrones de diseño responsivo con las tres tecnologías:
 ## Referencias
 
 [Multi-Device Layout Patterns](https://www.lukew.com/ff/entry.asp?1514)
+
 [FJCalzado responsive layout patterns](https://fjcalzado.github.io/DemoSeries-Responsive-Layout-Patterns/)
