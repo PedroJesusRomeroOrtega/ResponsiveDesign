@@ -3,30 +3,77 @@
 
 <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Ejercicio</title>
-    <link rel="stylesheet" href="content/site.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="../content/siteBootstrap.css">
 </head>
 
 <body>
-    <header class="header-container">
-        <nav></nav>
+    <header>
+        <div class="container">
+            <div class="row justify-content-center">
+                <h1 class="display-1 box text-primary">Roller skates</h1>
+            </div>
+        </div>
     </header>
     <main>
-       <section>
-            <h1 class="main-title">Responsive design pattern</h1>
-            <ul>
-                <li>
-                    <a>Flexbox</a>
-                </li>
-                <li>
-                    <a>Bootstrap4</a>
-                </li>
-                <li>
-                    <a>Materialize</a>
-                </li>
-            </ul>
-        </section>
+        <div class="container">
+            <div class="row justify-content-around">
+                <div class="col-12 col-md-3 col-lg-2 order-2 order-md-1">
+                    <h2 class="text-primary">Brands</h2>
+                    <div class="list-group">
+                        <a href="#" class="list-group-item list-group-item-action">Powerslide</a>
+                        <a href="#" class="list-group-item list-group-item-action">Rollerblade</a>
+                        <a href="#" class="list-group-item list-group-item-action">Sebas</a>
+                        <a href="#" class="list-group-item list-group-item-action">Roces</a>
+                        <a href="#" class="list-group-item list-group-item-action">Salomon</a>
+                    </div>
+                </div>
+                <div class="col-12 col-md-9 col-lg-8 order-1 order-md-2">
+                    <section class="box">
+                        <h2 class="text-primary">Powerslide kaze</h2>
+                        <img class="img-fluid" src="../content/images/PowerslideKaze.jpg">
+                        <p class="p-1 text-secondary">Urban adventures on 3 wheels: The Powerslide Kaze Supercruiser 110 urban inline skate. The super
+                            low Trinity mounting enables you to roll on 3 big wheels without losing control or balance. The
+                            reinforced shell & the stiff 243mm Triskate frame provide plenty of support for all freestyle
+                            tricks. Once having tried the comfy Recall Fit padding, there is no going back. Long lasting
+                            110mm UC wheels & fast Wicked bearings crown this stunning commuter freeskate!</p>
+                    </section>
+                    <section class="box">
+                        <h2 class="text-primary">Rollerblade Twister Edge X</h2>
+                        <img class="img-fluid" src="../content/images/RollerbladeTwisterEdge.jpg">
+                        <p class="p-1 text-secondary">Twister Edge X changes the game with a new design, fit and level of versatility to continue its reign
+                            as the benchmark skate in the industry. The boot and liner work together to create a superior
+                            anatomical fit and additional comfort with its memory latex padding. The sole features an Anti-Torsion
+                            Box to increase the control and stiffness for better handling and performance. Hydrogen wheels,
+                            made in the USA, are made of the highest quality urethane for optimal roll, wear and grip. Our
+                            team riders wanted the ultimate skate with lateral support, ventilation, durability, shock absorption
+                            and performance features so they helped us create this skate so you can too. Twister Edge X is
+                            one of the most compelling combinations of fit, support and maneuverability. The brake comes
+                            in the box.</p>
+                    </section>
+                    <section class="box">
+                        <h2 class="text-primary">Seba FR 1</h2>
+                        <img class="img-fluid" src="../content/images/SebasFR1.jpg">
+                        <p class="p-1 text-secondary">World’s favorite Freeride skate perfected. The shell is 310 & 325 frame-compatible, and available
+                            in yellow. Feel the remarkable difference in fit and in action. The New FR Liner, Premium Insole,
+                            and New 4D frame make this skate a game changer.</p>
+                    </section>
+                </div>
+                <div class="col-12 col-md col-lg-2 order-3 order-md-3">
+                    <h2 class="text-primary">Styles</h2>
+                    <div class="list-group flex-md-row flex-lg-column">
+                        <a href="#" class="list-group-item list-group-item-action">Freeride</a>
+                        <a href="#" class="list-group-item list-group-item-action">Freestyle</a>
+                        <a href="#" class="list-group-item list-group-item-action">Race</a>
+                        <a href="#" class="list-group-item list-group-item-action">Offroad</a>
+                        <a href="#" class="list-group-item list-group-item-action">Downhill</a>
+                    </div>
+                </div>
+            </div>
+        </div>
     </main>
 </body>
 
